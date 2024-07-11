@@ -16,12 +16,4 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
 <ul>
   <li>This file contains the ultrametric <em>Drosophilidae</em> host phylogeny used to fit phylogenetic MCMCglmms.</li>
 </ul>
-<li>models/Univariate_Models.RData</li>
-<ul>
-  <li>This file contains the univariate model runs used to calculate phylogenetic heritabilities and repeatabilities of viral load across host species.</li>
-</ul>
-<li>models/Bivariate_Models.RData</li>
-<ul>
-  <li>This file contains the bivariate model runs used to calculate phylogenetic correlations between pairs of viruses in their viral loads across host species.</li>
-</ul>
 </ul>
