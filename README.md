@@ -1,4 +1,4 @@
-# Drosophila Virus Phylogenetic Correlations
+# *Drosophila* Virus Phylogenetic Correlations
 
 This repository contains data and code used in Imrie et al., (2024) No Evidence of Trade-Offs in Susceptiblity to Different Viruses across *Drosophilidae* hosts.
 
