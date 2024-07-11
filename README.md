@@ -14,7 +14,7 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
 </ul>
   <li>data/phylogeny_host.nwk</li>
 <ul>
-  <li>This file contains the ultrametric *Drosophilidae* host phylogeny used to fit phylogenetic MCMCglmms.</li>
+  <li>This file contains the ultrametric <em>Drosophilidae</em> host phylogeny used to fit phylogenetic MCMCglmms.</li>
 </ul>
 <li>models/Univariate_Models.RData</li>
 <ul>
