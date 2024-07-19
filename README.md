@@ -33,3 +33,8 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
   <li>This file contains annotated genomes of DCV and CrPV isolates indicating the boundaries of coding and non-coding regions separated during alignment.</li>
 </ul>
 </ul>
+<li>data/cripavirus_BEAST.xml</li>
+<ul>
+  <li>This file contains the BEAST run settings used to infer the Cripavirus phylogeny.</li>
+</ul>
+</ul>
