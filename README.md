@@ -16,11 +16,19 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
 <ul>
   <li>This file contains the ultrametric <em>Drosophilidae</em> host phylogeny used to fit phylogenetic MCMCglmms.</li>
 </ul>
-    <li>data/cripavirus_genome_alignment.fasta</li>
+  <li>data/phylogeny_host.nwk</li>
 <ul>
-  <li>Concatenated alignment of DCV and CrPV isolate genomes. Coding and non-coding regions were each aligned separately using MUSCLE V5.1.</li>
+  <li>This file contains the Cripavirus phylogeny used to select DCV and CrPV isolates for inclusion in this study.</li>
 </ul>
-      <li>data/cripavirus_genome_annotation.gb</li>
+    <li>data/cripavirus_NC_concatenated.fas</li>
+<ul>
+  <li>Concatenated alignment of DCV and CrPV isolate non-coding genome sequences. Each non-coding region was aligned separately using MUSCLE V5.1 before concatenating.</li>
+</ul>
+    <li>data/cripavirus_NC_concatenated.fas</li>
+<ul>
+  <li>Concatenated alignment of DCV and CrPV isolate coding genome sequences. Each coding region was translation aligned separately using MUSCLE V5.1 before concatenating.</li>
+</ul>
+<li>data/cripavirus_genome_annotation.gb</li>
 <ul>
   <li>Annotated genomes of DCV and CrPV isolates indicating the boundaries of coding and non-coding regions separated during alignment.</li>
 </ul>
