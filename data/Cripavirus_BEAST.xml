@@ -424,9 +424,6 @@
 		<substitutionModel>
 			<HKYModel idref="Cripavirus_NC_concatenated.hky"/>
 		</substitutionModel>
-		<relativeRate weight="5.609688581314879">
-			<parameter id="Cripavirus_NC_concatenated.nu" value="0.5" lower="0.0" upper="1.0"/>
-		</relativeRate>
 		<gammaShape gammaCategories="4" discretization="equal">
 			<parameter id="Cripavirus_NC_concatenated.alpha" value="0.5" lower="0.0"/>
 		</gammaShape>
@@ -559,7 +556,7 @@
 	
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="10000000" autoOptimize="true" operatorAnalysis="Cripavirus_ORF_concatenated.ops.txt">
+	<mcmc id="mcmc" chainLength="2000000000" autoOptimize="true" operatorAnalysis="Cripavirus_2billion.ops.txt">
 		<joint id="joint">
 			<prior id="prior">
 				<logNormalPrior mu="1.0" sigma="1.25" offset="0.0">
@@ -634,7 +631,7 @@
 		</log>
 
 		<!-- write log to file                                                       -->
-		<log id="fileLog" logEvery="1000" fileName="Cripavirus_ORF_concatenated.log.txt" overwrite="false">
+		<log id="fileLog" logEvery="200000" fileName="Cripavirus_2billion.log.txt" overwrite="false">
 			<joint idref="joint"/>
 			<prior idref="prior"/>
 			<likelihood idref="likelihood"/>
@@ -673,7 +670,7 @@
 		</log>
 
 		<!-- write tree log to file                                                  -->
-		<logTree id="treeFileLog" logEvery="1000" nexusFormat="true" fileName="Cripavirus_ORF_concatenated.trees.txt" sortTranslationTable="true">
+		<logTree id="treeFileLog" logEvery="200000" nexusFormat="true" fileName="Cripavirus_2billion.trees.txt" sortTranslationTable="true">
 			<treeModel idref="treeModel"/>
 			<trait name="rate" tag="default.rate">
 				<discretizedBranchRates idref="default.branchRates"/>
@@ -685,7 +682,7 @@
 		</logTree>
 
 		<!-- write state of Markov chain to checkpoint file                          -->
-		<logCheckpoint id="checkpointFileLog" checkpointEvery="1000000" checkpointFinal="10000000" fileName="Cripavirus_ORF_concatenated.chkpt" overwrite="false"/>
+		<logCheckpoint id="checkpointFileLog" checkpointEvery="1000000" checkpointFinal="2000000000" fileName="Cripavirus_2billion.chkpt" overwrite="false"/>
 	</mcmc>
 	
 	<report>
