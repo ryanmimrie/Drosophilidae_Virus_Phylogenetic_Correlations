@@ -16,7 +16,7 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
 <ul>
   <li>This file contains the ultrametric <em>Drosophilidae</em> host phylogeny used to fit phylogenetic MCMCglmms.</li>
 </ul>
-  <li>data/phylogeny_host.nwk</li>
+  <li>data/phylogeny_cripavirus.nwk</li>
 <ul>
   <li>This file contains the Cripavirus phylogeny used to select DCV and CrPV isolates for inclusion in this study.</li>
 </ul>
