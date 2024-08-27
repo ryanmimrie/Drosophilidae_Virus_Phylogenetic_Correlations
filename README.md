@@ -12,7 +12,7 @@ This repository contains data and code used in Imrie et al., (2024) "Evidence of
 - `MCMCglmms.R`: This file contains code to run all univariate and bivariate phylogenetic MCMCglmms used in this study.
 
 ### Data
-- `data/data.vials`: This file contains fold-changes in viral load and other information for each biological replicate (vial) used in this study.
+- `data/data.vials`: This file contains fold-changes in viral load and metadata for each biological replicate (vial) used in this study.
 - `data/phylogeny_host.nwk`: This file contains the maximum clade credibility *Drosophilidae* host phylogeny used to fit phylogenetic MCMCglmms.
 - `data/phylogeny_dicistrovirus.tree`: This file contains the maximum clade credibility dicistrovirus phylogeny used to select DCV and CrPV isolates for inclusion in this study.
 - `data/dicistrovirus_NC_concatenated.fas`: This file contains the concatenated alignment of DCV and CrPV isolate non-coding genome sequences. Each non-coding region was aligned separately using MUSCLE V5.1 before concatenating.
