@@ -1,6 +1,6 @@
 # *Drosophilidae* Virus Phylogenetic Correlations
 
-This repository contains data and code used in Imrie et al., (2024) No Evidence of Trade-Offs in Susceptiblity to Different Viruses across *Drosophilidae* hosts.
+This repository contains data and code used in Imrie et al., (2024) Evidence of positive correlations in susceptibility to a diverse panel of viruses across *Drosophilidae* hosts.
 
 ### Files
 <ul>
@@ -16,7 +16,7 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
 <ul>
   <li>This file contains the maximum clade credibility <em>Drosophilidae</em> host phylogeny used to fit phylogenetic MCMCglmms.</li>
 </ul>
-  <li>data/phylogeny_cripavirus.nwk</li>
+  <li>data/phylogeny_cripavirus.tree</li>
 <ul>
   <li>This file contains the maximum clade credibility Cripavirus phylogeny used to select DCV and CrPV isolates for inclusion in this study.</li>
 </ul>
@@ -24,7 +24,7 @@ This repository contains data and code used in Imrie et al., (2024) No Evidence 
 <ul>
   <li>This file contains the concatenated alignment of DCV and CrPV isolate non-coding genome sequences. Each non-coding region was aligned separately using MUSCLE V5.1 before concatenating.</li>
 </ul>
-    <li>data/cripavirus_NC_concatenated.fas</li>
+    <li>data/cripavirus_ORF_concatenated.fas</li>
 <ul>
   <li>This file contains the concatenated alignment of DCV and CrPV isolate coding genome sequences. Each coding region was translation aligned separately using MUSCLE V5.1 before concatenating.</li>
 </ul>
