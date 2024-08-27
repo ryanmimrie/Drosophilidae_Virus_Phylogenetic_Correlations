@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://benlongdon.com/wp-content/uploads/2016/01/white_logo_only.png" width="200" alt="Logo" style="display: block; margin: auto;">
-</p>
+
+<img src="https://benlongdon.com/wp-content/uploads/2016/01/white_logo_only.png" width="200" alt="Logo" style="display: block; margin: auto;">
+
 
 # *Drosophilidae* Virus Phylogenetic Correlations
 
