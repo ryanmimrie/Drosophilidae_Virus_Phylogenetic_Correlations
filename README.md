@@ -1,3 +1,5 @@
+![Logo](https://benlongdon.com/wp-content/uploads/2016/01/white_logo_only.png)
+
 # *Drosophilidae* Virus Phylogenetic Correlations
 
 This repository contains data and code used in Imrie et al., (2024) "Evidence of positive correlations in susceptibility to a diverse panel of viruses across *Drosophilidae* hosts."
