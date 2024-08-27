@@ -32,7 +32,6 @@ This repository contains data and code used in Imrie et al., (2024) Evidence of 
 <ul>
   <li>This file contains annotated genomes of DCV and CrPV isolates indicating the boundaries of coding and non-coding regions separated during alignment.</li>
 </ul>
-</ul>
 <li>data/dicistrovirus_BEAST.xml</li>
 <ul>
   <li>This file contains the BEAST run settings used to infer the dicistrovirus phylogeny.</li>
