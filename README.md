@@ -1,5 +1,5 @@
 
-<img src=[img/logo.png] width="200" alt="Logo" style="display: block; margin: auto;">
+<img src="https://github.com/ryanmimrie/Drosophilidae_Virus_Phylogenetic_Correlations/blob/main/img/logo.png" width="200" alt="Logo" style="display: block; margin: auto;">
 
 
 # *Drosophilidae* Virus Phylogenetic Correlations
